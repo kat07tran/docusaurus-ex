@@ -1,10 +1,10 @@
 {
     "index_name": "katya",
     "start_urls": [
-      "https://katya-tran-docusaurus.netlify.app/"
+      "https://kat07tran.github.io/docusaurus-ex/"
     ],
     "sitemap_urls": [
-      "https://katya-tran-docusaurus.netlify.app/sitemap.xml"
+      "https://kat07tran.github.io/docusaurus-ex/sitemap.xml"
     ],
     "sitemap_alternate_links": true,
     "stop_urls": [

@@ -13,7 +13,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://kat07tran.github.io',
+  url: 'https://kat07tran.netlify.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/docusaurus-ex/',
@@ -86,6 +86,12 @@ const config = {
           },
         ],
       },
+      algolia: {
+        apiKey: '71bd318406e007330a74b63a4a488303',
+        indexName: 'katya',
+        appId: 'NMGKA13K37',
+        contextualSearch: true
+      },
       footer: {
         style: 'dark',
         links: [
@@ -129,7 +135,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Katya, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
