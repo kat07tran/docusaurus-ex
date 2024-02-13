@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Katya&#39;s Site</ShortName>
+  <Description>Search Katya&#39;s Site</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://kat07tran.netlify.app/docusaurus-ex/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://kat07tran.netlify.app/docusaurus-ex/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://kat07tran.netlify.app/docusaurus-ex/opensearch.xml" />
+  <moz:SearchForm>https://kat07tran.netlify.app/docusaurus-ex/</moz:SearchForm>
+</OpenSearchDescription>
